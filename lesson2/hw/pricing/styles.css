@@ -1,0 +1,230 @@
+html {
+    font-family: Montserrat;
+    background-color: #308af3;
+}
+
+.rectangle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 93%;
+    height: 90%;
+    border-radius: 6px;
+    background-color: #f5fafd;
+}
+
+.head-bar {
+    height: 6%;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    background-color: #ffffff;
+}
+
+.oval {
+    display: -webkit-inline-box;
+    margin: 10px;
+    border-radius: 6px;
+    width: 10px;
+    height: 10px;
+}
+
+.oval:nth-child(1) {
+    margin-right: 5px;
+    background-color: #ff6058;
+}
+
+.oval:nth-child(2) {
+    margin-left: 0;
+    margin-right: 5px;
+    background-color: #ffc130;
+}
+
+.oval:nth-child(3) {
+    margin-left: 0;
+    background-color: #28c940;
+}
+
+.pricing {
+    margin-top: 3%;
+    height: 5%;
+    font-size: 23px;
+    text-align: center;
+    color: #242f40;
+}
+
+.sign-up-in-less-than {
+    margin: 1%;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    text-align: center;
+    font-size: 12px;
+    width: 45%;
+    height: 6%;
+    color: #5b6b82;
+}
+
+.toggle {
+    display: -webkit-inline-box;
+    width: 32%;
+    height: 7%;
+    position: absolute;
+    margin-top: 7%;
+    left: 50%;
+    transform: translate(-50%);
+    font-size: 12px;
+}
+
+.rectangle-2-copy {
+    text-align: center;
+    width: 50%;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    background-color: #3ccf8e;
+}
+
+.rectangle-2-copy:last-child {
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    background-color: #e4edf2
+}
+
+.monthly {
+    margin: 12px;
+    color: white;
+}
+
+.annually {
+    margin: 12px;
+    color: black;
+}
+
+.pricing-table {
+    height: 46%;
+    display: flex;
+    margin: 5%;
+    margin-top: 18%;
+}
+
+.plan {
+    width: 25%;
+    box-shadow: 0 2px 18px 0 rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+}
+
+.plan:nth-child(3) {
+    border: 1px solid #00d28a;
+    margin-top: -20px;
+    width: 26%;
+    height: 116%;
+    box-shadow: 0 6px 35px 0 rgba(0, 0, 0, 0.2);
+}
+
+.text {
+    margin-top: 20%;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    font-size: 9px;
+    text-align: center;
+    color: #242f40;
+}
+
+.recomended {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    width: 40%;
+    margin-top: -7%;
+    margin-bottom: 10%;
+    border-radius: 1.7px;
+    color: #ffffff;
+    background-color: #ffb34b;
+}
+
+.btn {
+    font-size: 9px;
+    width: 70%;
+    height: 30px;
+    margin: 15%;
+    border-radius: 4px;
+    border: 0.6px solid #5b6b82;
+    color: #5b6b82;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-transform: uppercase;
+}
+
+.green-btn {
+    color: #ffffff;
+    background-color: #3ccf8e;
+    border: 0.6px solid #3ccf8e;
+    margin-top: 10%;
+}
+
+.price {
+    display: flex;
+    font-size: 30px;
+    justify-content: center;
+    margin: 5%;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #242f40;
+}
+
+.dollar {
+    font-size: 16px;
+    margin-top: 13px;
+    width: 11px;
+    height: 20px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #242f40;
+}
+
+.month {
+    width: 20px;
+    height: 12px;
+    font-size: 10px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    margin-top: 18px;
+    color: #5b6b82;
+}
+
+.description {
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    font-size: 9px;
+    text-align: left;
+    color: #242f40;
+    margin: 5px;
+}
+
+.description ul {
+    margin: 20px 0 0 0;
+    padding: 0;
+	list-style: none;
+}
+
+.description li {
+    list-style-image: url(./img/check.png);
+    padding: 5px 0;
+}
